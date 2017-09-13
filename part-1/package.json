@@ -1,5 +1,5 @@
 {
-  "name": "part-1",
+  "name": "simple web app",
   "version": "1.0.0",
   "description": "build a very basic web api",
   "main": "server.js",

@@ -27,7 +27,7 @@ app.post('/api/array/concat', (request, response, next) => {
 
     for(var prop in body) {
         if(Array.isArray(body[prop])) {
-           var result = body.array1.concat(body.array2)
+           const result = body.array1.concat(body.array2)
             console.dir(body[prop])
             const success =  'request content type: application / json' + '\n' + 'response:  ' + '{ "result" :' + '[' + `${result}` + '] }' + '\n' + 'response content type: application / json'
             response.send(success)

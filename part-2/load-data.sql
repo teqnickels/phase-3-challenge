@@ -3,7 +3,7 @@ COPY products (name, price, section) FROM '/Users/debrenamcewen/guild/phase-3-ch
 
 
 INSERT INTO customers (name)
-VALUES ('Cynthia'), ('Erica'), ('Alicia'), ('Robert'), ('Debrena'), ('Lynne'), ('Nicole');
+VALUES ('Cynthia'), ('Erica'), ('Alicia'), ('Robert'), ('Debrena'), ('Lynne'), ('Nicole'), ('Bernard'), ('Calvin'), ('Harman'), ('Punit'), ('Monica'), ('RC');
 
  
 
